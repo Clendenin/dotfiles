@@ -177,4 +177,10 @@ bar {
 bindsym $mod+Shift+e exec i3-msg exit
 
 
-exec xrandr --dpi 220
+#exec xrandr --dpi 220
+# DPI
+exec_always --no-startup-id xrandr --dpi 180
+#exec_always export GDK_SCALE=2
+#exec_always export GDK_DPI_SCALE=0.5
+
+exec --no-startup-id xrandr --output eDP-1 --mode 2560x1440
