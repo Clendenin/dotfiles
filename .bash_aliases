@@ -1,7 +1,7 @@
 alias ..="cd .."
 alias gs="git status"
 alias ga="git add *"
-alias ssh="ssh rkc@lynx.cs.utexas.edu"
+alias sshcs="ssh rkc@lynx.cs.utexas.edu"
 alias lock="i3lock"
 alias lcok="i3lock"
 alias lsf="ls -f"
